@@ -1,0 +1,31 @@
+# =============== #
+# We have asset bundles without extensions, Ignoring them here #
+# * tells git to ignore everything.
+# !*/ then unignores anything that is a directory. This is crucial.
+# !*.* unignores all files with an extension.
+# =============== #
+
+Assets/Data_iOS/*
+Assets/Data_iOS/!*/
+Assets/Data_iOS/!*.*
+
+Assets/Data_Android/*
+Assets/Data_Android/!*/
+Assets/Data_Android/!*.*
+
+Assets/Temp.meta
+Temp/
+Library/
+StreamingAssets/
+obj/
+*.apk
+*.suo
+*.unity3d
+*.unity3d.meta
+*.manifest
+*.manifest.meta
+*.userprefs
+*.sln
+*.csproj
+*.unitypackage
+.vs
