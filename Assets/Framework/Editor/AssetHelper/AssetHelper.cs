@@ -98,9 +98,10 @@ namespace XcelerateGames.Editor
         }
 
         [MenuItem("Assets/Clipboard/Paste", false, 81)]
-        private static void DoSetAssetBundleName()
+        private static void DoShowClipboard()
         {
-            GetWindow<AssetHelper>();
+            AssetHelper window = GetWindow<AssetHelper>();
+            window.titleContent.text = "Clipboard";
         }
 
         private void OnGUI()
