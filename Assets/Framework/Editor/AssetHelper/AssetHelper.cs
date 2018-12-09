@@ -7,7 +7,7 @@ using UnityEngine;
  * Purpose : Context menu to copy, cut & paste items
 */
 
-namespace LSG.Editor
+namespace XcelerateGames.Editor
 {
     public class AssetHelper : EditorWindow
     {
